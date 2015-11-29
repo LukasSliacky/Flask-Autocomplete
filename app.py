@@ -16,7 +16,7 @@ cities = ["Bratislava",
 
 
 class SearchForm(Form):
-    autocomp = TextField('Insert City', id='autocomplete')
+    autocomp = TextField('Insert City', id='city_autocomplete')
 
 
 @app.route('/_autocomplete', methods=['GET'])
